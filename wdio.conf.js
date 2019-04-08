@@ -14,8 +14,8 @@ exports.config = {
     ],
     // Patterns to exclude.
     exclude: [
-        './test/specs/test.js',
-        './test/specs/test-2.js'
+        // './test/specs/test.js',
+        // './test/specs/test-2.js'
     ],
     //
     // ============
@@ -45,7 +45,11 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome'
+        browserName: 'chrome',
+        // chromeOptions: {
+        //     args: ['--headless', '--disable-gpu', '--window-size=1280,800'],
+        //     binary: '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+        // }
     }],
     //
     // ===================
