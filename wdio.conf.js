@@ -47,8 +47,8 @@ exports.config = {
         //
         browserName: 'chrome',
         // chromeOptions: {
-        //     args: ['--headless', '--disable-gpu', '--window-size=1280,800'],
-        //     binary: '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+        //     // args: ['--headless', '--disable-gpu', '--window-size=1280,800'],
+        //     // binary: '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
         // }
     }],
     //
@@ -117,7 +117,15 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['selenium-standalone'],
+    // services: ['chromedriver'],
     //
+    //
+    // port to find chromedriver
+    // port: 9515, // default for ChromeDriver
+    // path: '/',
+    // chromeDriverArgs: ['--port=9515', '--url-base=\'/\''], // default for ChromeDriver
+    // chromeDriverLogs: './',
+
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: http://webdriver.io/guide/testrunner/frameworks.html

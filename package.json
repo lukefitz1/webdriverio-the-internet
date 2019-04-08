@@ -10,9 +10,12 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
+    "chromedriver": "^2.46.0",
     "selenium-standalone": "^6.16.0",
+    "wdio-chromedriver-service": "^5.0.1",
     "wdio-mocha-framework": "^0.6.4",
     "wdio-selenium-standalone-service": "0.0.12",
     "webdriverio": "^4.14.4"
-  }
+  },
+  "dependencies": {}
 }
